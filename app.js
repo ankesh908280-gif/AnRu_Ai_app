@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const visualizer = new window.QuantumVisualizer('orbCanvas');
     const sfx = window.soundFX;
-    const brain = new window.ANRU AIBrain();
+    const brain = new (window.AnruBrain || window.JarvisBrain)();
 
     // DOM Elements
     const micBtn = document.getElementById('micBtn');

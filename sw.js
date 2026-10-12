@@ -10,9 +10,9 @@ const ASSETS_TO_CACHE = [
     './speech.js',
     './app.js',
     './manifest.json',
-    './icons/favicon.png',
-    './icons/icon-192.png',
-    './icons/icon-512.png'
+    './favicon.png',
+    './icon-192.png',
+    './icon-512.png'
 ];
 
 self.addEventListener('install', (event) => {

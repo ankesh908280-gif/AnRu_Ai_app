@@ -1,56 +1,62 @@
-# 🚀 JARVIS AI - Phone Action Controller & Voice Assistant (v3.0)
+# 🚀 ANRU AI - Voice Assistant & Phone Controller (v3.0)
 
-Aapka personal, futuristic Sci-Fi Voice Assistant aur Phone Action Controller jo **bina kisi Google API key ke 100% free chalta hai.**
-
----
-
-## ⚡ 1. Voice Action & Phone Controller Commands (Doston ke beech Asli Rola)
-
-### 📞 Phone Call Commands:
-* *"Papa ko call lagao"* ➔ Phone dialer me Papa ka number direct open ho jayega.
-* *"Rahul ko call karo"* ➔ Rahul ka number dial ho jayega.
-* *"Call 9876543210"* ➔ Direct dialer khul jayega.
-*(Settings ⚙️ me jakar aap apne doston/gharwalon ke naam aur phone number save kar sakte hain).*
-
-### 💬 WhatsApp Messenger:
-* *"WhatsApp par message bhejo Main 10 minute me aa raha hoon"* ➔ WhatsApp me message pehle se type hokar open ho jayega, bas send dabana hai!
-* *"Papa ko WhatsApp karo"* ➔ Direct Papa ki chat open ho jayegi.
-
-### ▶️ App Launchers:
-* *"YouTube kholo"* ➔ YouTube app khulega.
-* *"YouTube par Arijit Singh ke gaane chalao"* ➔ YouTube me gaane search hokar khulenge.
-* *"Instagram open karo"* ➔ Instagram app open hoga.
-* *"Spotify kholo"* ➔ Spotify app open hoga.
-* *"Google Maps par Lucknow ka rasta dikhao"* ➔ Maps me navigation khul jayega.
-
-### 🔦 Hardware & Sensor Commands:
-* *"Torch on karo"* / *"Flashlight on karo"* ➔ Phone ki piche ki flashlight jal jayegi!
-* *"Torch off karo"* ➔ Flashlight band ho jayegi.
-* *"Alert mode"* / *"Vibrate karo"* ➔ Phone me haptic vibration pulse hoga.
-* *"Meri location batao"* ➔ Live GPS se aapki location batayega.
-* *"Timer lagao 30 second"* ➔ 30s ka live countdown aur baad me Sci-Fi siren alarm bajega!
+यह **ANRU AI** का 100% फ्लैट (Single Folder) रेडी-टू-अपलोड पैकेज है।
+इसमें कोई अंदरूनी सब-फ़ोल्डर नहीं है। आप सीधे सभी फ़ाइलों को **Select All** करके GitHub पर अपलोड कर सकते हैं।
 
 ---
 
-## 🕵️ 2. Social & Entertainment Modes:
+## ⚡ 1. GitHub पर कैसे अपलोड करें (Phone Friendly):
 
-* **AI Lie Detector / Bullshit Scanner:**
-  - Boliye: *"Lie detector mode"* ya *"Check karo ye sach bol raha hai ya jhooth"*
-  - Jarvis biometric scan sound nikaalega aur bolega: *"Bio-Scan Complete: 98% fekugiri pakdi gayi hai... ye banda safed jhooth bol raha hai!"*
-* **Emergency Fake Call (Rescue Mode):**
-  - Boliye: *"Fake call lagao"* ya *"Emergency rescue me"*
-  - 5 second baad screen par realistic incoming call aayegi (Papa Urgent Calling) with ringing sound aur Accept/Decline button!
+1. इस ज़िप फ़ाइल (`ANRU_AI_Flat_Ready.zip`) को अपने फ़ोन में अनज़िप (Extract) करें।
+2. अपने फ़ोन के Chrome ब्राउज़र में GitHub पर जाएँ और एक नई Repository बनाएँ (जैसे: `anru-ai`).
+3. **"uploading an existing file"** पर क्लिक करें।
+4. इस फ़ोल्डर की सभी 15 फ़ाइलें (Select All) चुनकर अपलोड कर दें:
+   - `index.html`
+   - `style.css`
+   - `app.js`
+   - `brain.js`
+   - `speech.js`
+   - `visualizer.js`
+   - `audio_sfx.js`
+   - `sw.js`
+   - `manifest.json`
+   - `favicon.png`
+   - `icon-192.png`
+   - `icon-512.png`
+   - `AnRu_Ai_icon.png`
+   - `README.md`
+5. **Commit changes** दबाएँ।
 
 ---
 
-## 🧠 3. Intelligence, GK & Math (100% Free & No-API-Key):
-* **Indian Politics & GK:** *"Bharat ke Pradhan Mantri kaun hai"*, *"Rashtrapati kaun hai"*, *"UP ke CM kaun hai"*.
-* **Universal Math:** *"5000 ka 18 percent"*, *"25 * 40"*, *"3600 / 6"*, *"square root of 144"*.
-* **Free Puter.js AI:** Kisi bhi word ka Hindi meaning, Generative AI explanation, Black hole, etc.
+## 🌐 2. GitHub Pages पर लाइव लिंक कैसे चालू करें:
+
+1. अपनी रिपॉजिटरी में ऊपर **Settings ⚙️** पर जाएँ।
+2. बाईं तरफ मेनू में **Pages** पर टैप करें।
+3. **Branch** में `None` की जगह **`main`** (या `master`) चुनें और फ़ोल्डर `/(root)` रहने दें।
+4. **Save** दबाएँ।
+5. 1 मिनट में आपको ऊपर लाइव लिंक मिल जाएगा: `https://your-username.github.io/anru-ai/`
 
 ---
 
-## 📱 GitHub Pages par Update Kaise Karein (1 Minute):
-1. Is ZIP file ko extract karein.
-2. Apne GitHub repository (`h908280-gif.github.io`) par files upload/replace kar dein (`index.html`, `style.css`, `app.js`, `brain.js`, `audio_sfx.js`, `sw.js`).
-3. **Commit changes** karein — aapka live link update ho jayega!
+## 📱 3. फ़ोन पर असली ऐप की तरह इनस्टॉल कैसे करें (PWA / WebAPK):
+
+1. अपने फ़ोन के Chrome ब्राउज़र में अपना GitHub Pages वाला लाइव लिंक खोलें।
+2. Chrome के ऊपर दाईं तरफ **3 डॉट्स (⋮)** पर क्लिक करें।
+3. **"Install app"** या **"Add to Home screen" (होम स्क्रीन पर जोड़ें)** पर टैप करें।
+4. आपके फ़ोन की होम स्क्रीन पर आपका कस्टम **ANRU AI** लोगो वाला ऐप इनस्टॉल हो जाएगा!
+5. इसे खोलते ही यह बिना किसी ब्राउज़र बार के फुल-स्क्रीन ऐप की तरह चलेगा।
+
+---
+
+## 🎙️ 4. मुख्य फीचर्स और वॉयस कमांड्स:
+
+* 📞 **कॉल:** *"पापा को कॉल लगाओ"* / *"कॉल 9876543210"*
+* 💬 **व्हाट्सएप:** *"व्हाट्सएप पर मैसेज भेजो मैं 10 मिनट में आ रहा हूँ"*
+* ▶️ **यूट्यूब:** *"यूट्यूब पर अरिजीत सिंह के गाने चलाओ"*
+* 🔦 **टॉर्च:** *"टॉर्च ऑन करो"* / *"टॉर्च ऑफ करो"*
+* 🚨 **फेक कॉल:** *"फेक कॉल लगाओ"* (5 सेकंड में असली जैसी इनकमिंग कॉल स्क्रीन)
+* 🕵️ **लाई डिटेक्टर:** *"लाई डिटेक्टर मोड"* / *"चेक करो ये सच बोल रहा है या झूठ"*
+* ⏰ **टाइमर व अलार्म:** *"टाइमर लगाओ 45 सेकंड"* / *"अलार्म लगाओ 6 बजे"*
+* 🎯 **मैथ व हिसाब:** *"5000 का 18 परसेंट"*, *"25 * 40"*, *"square root of 144"*
+* 🧠 **जीके व सामान्य ज्ञान:** *"भारत के प्रधानमंत्री कौन हैं"*, *"जेनेरेटिव एआई क्या है"*

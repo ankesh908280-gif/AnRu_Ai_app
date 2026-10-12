@@ -1,6 +1,6 @@
 // brain.js - Master Intelligence Engine with Actions, Hardware & AI
 
-class JarvisBrain {
+class AnruBrain {
     constructor() {
         this.bossName = localStorage.getItem('jarvis_boss_name') || 'Boss';
         this.personality = localStorage.getItem('jarvis_personality') || 'savage';
@@ -735,4 +735,5 @@ Speak in crisp conversational Hinglish. Answer strictly in 1 to 2 sentences maxi
     }
 }
 
-window.JarvisBrain = JarvisBrain;
+window.AnruBrain = AnruBrain;
+window.JarvisBrain = AnruBrain;
